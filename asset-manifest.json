@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Gar-om-Cronometrado/static/css/main.bcd0759f.css",
+    "main.js": "/Gar-om-Cronometrado/static/js/main.59e0bedb.js",
+    "index.html": "/Gar-om-Cronometrado/index.html",
+    "main.bcd0759f.css.map": "/Gar-om-Cronometrado/static/css/main.bcd0759f.css.map",
+    "main.59e0bedb.js.map": "/Gar-om-Cronometrado/static/js/main.59e0bedb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bcd0759f.css",
+    "static/js/main.59e0bedb.js"
+  ]
+}
