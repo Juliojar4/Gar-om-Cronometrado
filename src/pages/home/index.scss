@@ -1,0 +1,31 @@
+.content-main{
+    background-color: #adb5bd80;
+    
+    .header {
+        background-color: #ffc10780;
+    }   
+
+    .food-box{
+        margin-inline: 5px;
+        padding-top: 11px;
+        border: 3px solid;
+        margin-bottom: 27px;
+        background: #66339985;
+        .title-food{
+            font-family: monospace;
+            font-size: 30px;
+        }
+        .fixed-time{
+            font-size: 20px;
+            font-family: cursive;
+        }
+        .button-food-box{
+            border: none;
+            border-radius: 10px;
+            width: 60%;
+            font-size: 15px;
+            background: #212529;
+            color: white;
+        }
+    }
+}

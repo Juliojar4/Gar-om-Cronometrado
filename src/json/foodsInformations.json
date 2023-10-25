@@ -1,0 +1,20 @@
+{
+    "foods": [
+        {
+            "name": "Batata Frita",
+            "time" : 15
+        },
+        {
+            "name": "Bolinho De Costela",
+            "time" : 20
+        },
+        {
+            "name": "lombo MFT",
+            "time" : 25
+        },
+        {
+            "name": "Pasteis",
+            "time" : 15
+        }
+    ]
+}
