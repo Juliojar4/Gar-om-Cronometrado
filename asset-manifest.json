@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Gar-om-Cronometrado/static/css/main.45927a09.css",
-    "main.js": "/Gar-om-Cronometrado/static/js/main.3c897701.js",
+    "main.css": "/Gar-om-Cronometrado/static/css/main.1198cee6.css",
+    "main.js": "/Gar-om-Cronometrado/static/js/main.3c51274f.js",
     "index.html": "/Gar-om-Cronometrado/index.html",
-    "main.45927a09.css.map": "/Gar-om-Cronometrado/static/css/main.45927a09.css.map",
-    "main.3c897701.js.map": "/Gar-om-Cronometrado/static/js/main.3c897701.js.map"
+    "main.1198cee6.css.map": "/Gar-om-Cronometrado/static/css/main.1198cee6.css.map",
+    "main.3c51274f.js.map": "/Gar-om-Cronometrado/static/js/main.3c51274f.js.map"
   },
   "entrypoints": [
-    "static/css/main.45927a09.css",
-    "static/js/main.3c897701.js"
+    "static/css/main.1198cee6.css",
+    "static/js/main.3c51274f.js"
   ]
 }
