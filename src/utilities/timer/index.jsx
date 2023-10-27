@@ -14,10 +14,10 @@ const CountdownTimer = ({ initialMinutes, initialSeconds, food,id }) => {
         interval = setInterval(() => {
             if (minutes === 0 && seconds === 0) {
                 clearInterval(interval);
-                 document.getElementsByClassName('timer')[id].parentElement.classList.add('d-none'); 
+                document.getElementsByClassName('timer')[id].parentElement.classList.add('d-none'); 
                 axios({   
                     method: 'post',
-                    url: 'https://ntfy.sh/garcon',
+                    url: 'https://ntfy.sh/garcom',
                     data: `A porção de ${food} está pronta`,
                 })  
 

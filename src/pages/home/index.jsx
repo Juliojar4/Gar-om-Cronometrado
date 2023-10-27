@@ -82,7 +82,7 @@ const Home = () => {
                         console.log(el.id);
                         return (
                             <div key={id} className="teste mt-5">
-                                <UseTimer initialMinutes={el.time} initialSeconds={0} food={el.name} id={el.id} />
+                                <UseTimer initialMinutes={el.time} initialSeconds={0} food={el.name} id={id} />
                             </div>
                         )
                     })}
