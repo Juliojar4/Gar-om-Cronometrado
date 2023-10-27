@@ -6,12 +6,13 @@ const NewFoodInput = () => {
 
     const PutFoodsLocalStorage = () => {
         const name = document.getElementsByName('name')[0];
-        const time = document.getElementsByName('time')[0];
+        const time = document.getElementsByName('time')[0]; 
 
         const listFoods = JSON.parse(localStorage.getItem('list-foods') || '[]');
-        const foodObj = {name:name.value, time:time.value}
+
+        const foodObj = {name:name.value, time:time.value, id:listFoods.length}
         listFoods.push(foodObj)
-        localStorage.setItem("list-foods", JSON.stringify(listFoods));
+        time.value && name.value && localStorage.setItem("list-foods", JSON.stringify(listFoods));
     };
 
     return(
@@ -25,7 +26,7 @@ const NewFoodInput = () => {
                     </div>
                     <div>
                         <label for="time" className="mt-3">Tempo de Preparo:</label><br/>
-                        <input type="text" className="new-food-input mb-3" placeholder="Tempo de preparo" name="time"/>
+                        <input type="number" className="new-food-input mb-3" placeholder="Tempo de preparo" name="time"/>
                     </div>
                     <button onClick={() => PutFoodsLocalStorage()} type="button" className="btn btn-primary">Adicionar</button>
                 </div>
